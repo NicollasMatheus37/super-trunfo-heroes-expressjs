@@ -1,0 +1,52 @@
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Trunfo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="login.service.js"></script>
+    <link rel="stylesheet" type="text/css" rel="noopener" target="_blank" href="default.css">
+</head>
+
+<body class="text-center bg-stone-800">
+    <div class="w-full text-5xl mt-24">
+        SUPER HERO TRUNFO GAME
+    </div>
+
+    <div class="border shadow p-8 mt-24 w-1/2 mx-auto rounded-lg">
+        <div class="w-full items-center text-2xl">
+            <div class="block w-full py-4">
+                <input class="w-3/5 bg-stone-800 border-b border-white" id="usernameInput">
+                <div class="w-full flex text-left justify-center">
+                    <label class="w-3/5 text-sm" for="usernameInput">
+                        Nome de usuário
+                    </label>
+                </div>
+            </div>
+            <div class="block w-full py-4">
+                <input class="w-3/5 bg-stone-800 border-b border-white" type="password" id="passwordInput">
+                <div class="w-full flex text-left justify-center">
+                    <label class="w-3/5 text-sm" for="passwordInput">
+                        Senha
+                    </label>
+                </div>
+            </div>
+            <div class="w-full flex justify-center gap-6">
+                <div class="block flex justify-center mt-6">
+                    <button onclick="login()" class="w-40 mx-auto py-3">
+                        Entrar
+                    </button>
+                </div>
+                <div class="block flex justify-center mt-6">
+                    <button onclick="toHome()" class="w-40 mx-auto py-3">
+                        Voltar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
